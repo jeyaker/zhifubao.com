@@ -1,0 +1,243 @@
+@charset "utf-8";
+body {
+  display: flex;
+  flex-flow: column;
+}
+body > header {
+  height: 2.46rem;
+  background-color: #1b82d2;
+  width: 100%;
+}
+body > header > .header-top {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.25rem;
+  height: 1.02rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+body > header > .header-top > div {
+  position: relative;
+}
+body > header > .header-top > div > input {
+  border: 0;
+  border-radius: 0.05rem;
+  outline: 0;
+  text-indent: 0.57rem;
+  font-size: 0.26rem;
+  color: #666;
+  width: 5.46rem;
+  height: 0.58rem;
+}
+body > header > .header-top > div > a > i {
+  position: absolute;
+  font-size: 0.26rem;
+  color: #aeaeae;
+}
+body > header > .header-top > div > a:first-of-type > i {
+  left: 0.2rem;
+  top: 0.17rem;
+}
+body > header > .header-top > div > a:last-of-type > i {
+  right: 0.24rem;
+  top: 0.14rem;
+  font-size: 0.29rem;
+}
+body > header > .header-top > a > i {
+  font-size: 0.3rem;
+  color: white;
+}
+body > header > .header-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+body > header > .header-bottom > li > a {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+body > header > .header-bottom > li > a > i {
+  font-size: 0.55rem;
+}
+body > header > .header-bottom > li > a > span {
+  margin-top: 0.16rem;
+  font-size: 0.28rem;
+}
+body > .main {
+  background-color: #f5f5f5;
+  overflow: auto;
+  width: 100%;
+  flex: 1;
+}
+body > .main > .main-nav {
+  height: 4.2rem;
+  background-color: #fff;
+  margin-bottom: 0.17rem;
+  width: 100%;
+}
+body > .main > .main-nav > ul {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+}
+body > .main > .main-nav > ul > li {
+  width: 25%;
+  height: 33.33333333%;
+}
+body > .main > .main-nav > ul > li > a {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  flex-flow: column;
+  align-items: center;
+  color: #2493e2;
+}
+body > .main > .main-nav > ul > li > a > i {
+  font-size: 0.53rem;
+}
+body > .main > .main-nav > ul > li > a > span {
+  margin-top: 0.09rem;
+  font-size: 0.25rem;
+  color: black;
+}
+body > .main > .main-nav > ul > li:nth-child(2) > a > i,
+body > .main > .main-nav > ul > li:nth-child(3) > a > i,
+body > .main > .main-nav > ul > li:nth-child(6) > a > i {
+  color: #f39927;
+}
+body > .main > .main-nav > ul > li:nth-child(4) > a > i,
+body > .main > .main-nav > ul > li:nth-child(5) > a > i {
+  color: #f15a4a;
+}
+body > .main > .main-nav > ul > li:nth-child(10) > a > i {
+  color: #29ab91;
+}
+body > .main > .main-nav > ul > li:nth-child(12) > a > i {
+  color: #bbb;
+}
+body > .main > .main-bg1 {
+  width: 100%;
+  margin-bottom: 0.17rem;
+}
+body > .main > .main-bg1 > a {
+  display: block;
+  width: 100%;
+}
+body > .main > .main-bg1 > a > img {
+  width: 100%;
+  height: 1.33rem;
+}
+body > .main > .main-bg2 {
+  width: 100%;
+  margin-bottom: 0.17rem;
+}
+body > .main > .main-bg2 > a {
+  display: block;
+  width: 100%;
+}
+body > .main > .main-bg2 > a > img {
+  width: 100%;
+  height: 1.8rem;
+}
+body > .main > .main-con1,
+body > .main > .main-con2 {
+  height: 2.56rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 0.32rem;
+  background-color: #fff;
+  position: relative;
+}
+body > .main > .main-con1 > h3,
+body > .main > .main-con2 > h3 {
+  font-size: 0.35rem;
+  line-height: 0.88rem;
+  height: 0.88rem;
+}
+body > .main > .main-con1 > div,
+body > .main > .main-con2 > div {
+  box-shadow: 0 0 0.1rem 0.05rem #f3f1f1;
+  border-radius: 0.05rem;
+  height: 1.44rem;
+  padding: 0.2rem 0.16rem;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+body > .main > .main-con1 > div > a,
+body > .main > .main-con2 > div > a {
+  width: 3.1rem;
+  display: flex;
+}
+body > .main > .main-con1 > div > a > div,
+body > .main > .main-con2 > div > a > div {
+  width: 2.16rem;
+}
+body > .main > .main-con1 > div > a > div > h5,
+body > .main > .main-con2 > div > a > div > h5 {
+  font-size: 0.29rem;
+  height: 0.52rem;
+  line-height: 0.52rem;
+  color: black;
+}
+body > .main > .main-con1 > div > a > div > span,
+body > .main > .main-con2 > div > a > div > span {
+  font-size: 0.25rem;
+  color: #aaa;
+  line-height: 0.37rem;
+}
+body > .main > .main-con1 > div > a > img,
+body > .main > .main-con2 > div > a > img {
+  height: 0.98rem;
+  width: 0.98rem;
+}
+body > .main > .main-con1 > span,
+body > .main > .main-con2 > span {
+  position: absolute;
+  width: 0.02rem;
+  height: 1.03rem;
+  background-color: #f4f4f4;
+  left: 50%;
+  top: 1.08rem;
+}
+body > .main > .main-bottom {
+  width: 100%;
+}
+body > .main > .main-bottom > img {
+  width: 100%;
+  height: 1.5rem;
+}
+body > footer {
+  height: 1.1rem;
+  box-sizing: border-box;
+  border-top: 0.01rem solid #e3e3e3;
+  width: 100%;
+}
+body > footer > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+body > footer > ul > li > a {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  color: #888888;
+}
+body > footer > ul > li > a > i {
+  font-size: 0.5rem;
+}
+body > footer > ul > li > a > span {
+  font-size: 0.21rem;
+  margin-top: 0.07rem;
+}
+body > footer > ul > li:first-child > a {
+  color: #29a1f7;
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  height: 100%;
+  font-size: 100px;
+}
+html body {
+  height: 100%;
+  font-size: 16px;
+}
+html body a {
+  text-decoration: none;
+}
+html body em,
+html body i,
+html body strong,
+html body b {
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+}
+html body img {
+  border: 0;
+  vertical-align: middle;
+}
+html body ul {
+  list-style: none;
+}

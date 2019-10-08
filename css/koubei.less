@@ -1,0 +1,266 @@
+@charset "utf-8";
+
+body {
+    display: flex;
+    flex-flow: column;
+
+    >header {
+        height: 1rem;
+        background-color: #1b82d2;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        >a {
+            padding-left: 0.3rem;
+
+            >img {
+                height: 0.38rem;
+            }
+        }
+
+        >.search {
+            position: relative;
+
+            >input {
+                border: 0;
+                outline: 0;
+                height: 0.58rem;
+                width: 3.96rem;
+                border-radius: 0.05rem;
+                font-size: 0.26rem;
+                text-indent: 0.56rem;
+                color: #666;
+            }
+
+            >a {
+                >i {
+                    position: absolute;
+                    font-size: 0.26rem;
+                    color: #aeaeae;
+                }
+            }
+
+            >a:first-of-type {
+                >i {
+                    left: 0.2rem;
+                    top: 0.17rem;
+                }
+            }
+
+            >a:last-of-type {
+                >i {
+                    right: 0.24rem;
+                    top: 0.14rem;
+                    font-size: 0.29rem;
+                }
+            }
+        }
+
+        >.icon {
+            width: 1.78rem;
+            display: flex;
+            justify-content: space-around;
+
+            >a {
+                color: white;
+                font-size: 0.48rem;
+
+                >i {}
+            }
+        }
+    }
+
+    >.main {
+        flex: 1;
+        overflow: auto;
+        width: 100%;
+        background-color: #f7f7f7;
+
+        >.main-nav {
+            display: flex;
+            flex-wrap: wrap;
+            height: 3.14rem;
+            background-color: #fff;
+
+            >li {
+                width: 20%;
+                height: 50%;
+
+                >a {
+                    height: 100%;
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+
+                    >i {
+                        font-size: 0.52rem;
+                        color: #f2551b;
+                    }
+
+                    >span {
+                        margin-top: 0.22rem;
+                        color: black;
+                        font-size: 0.26rem;
+                    }
+                }
+            }
+
+            >li:nth-child(2),
+            >li:nth-child(5) {
+                >a>i {
+                    color: #1c82d3;
+                }
+            }
+
+            >li:nth-child(3),
+            >li:nth-child(10) {
+                >a>i {
+                    color: #f39928;
+                }
+            }
+
+            >li:nth-child(6),
+            >li:nth-child(7) {
+                >a>i {
+                    color: #7d20e7;
+                }
+            }
+        }
+
+        >.main-con1 {
+            display: flex;
+            width: 100%;
+            height: 2.1rem;
+            padding: 0.36rem 0.32rem;
+            box-sizing: border-box;
+            justify-content: space-between;
+            background-color: #fff;
+
+            >a {
+                box-shadow: 0 0 0.1rem 0.05rem rgb(243, 241, 241);
+
+                >img {
+                    height: 1.38rem;
+                    width: 3.3rem;
+                }
+            }
+        }
+
+        >.main-bg1 {
+            >a {
+                >img {
+                    width: 100%;
+                    height: 1.82rem;
+                }
+            }
+        }
+
+        >.main-bg2 {
+            height: 4.1rem;
+            background-color: #fefefe;
+            padding: 0.33rem;
+            box-sizing: border-box;
+            margin-bottom: 0.13rem;
+
+            >a {
+                >img {
+                    width: 6.84rem;
+                    height: 3.44rem;
+                }
+            }
+        }
+
+        >.main-bg3 {
+            margin-bottom: 0.15rem;
+
+            >a {
+                >img {
+                    height: 1.76rem;
+                    width: 100%;
+                }
+            }
+        }
+
+        >.main-con2 {
+            background-color: #fff;
+            margin-bottom: 0.4rem;
+
+            >li {
+                padding: 0.47rem 0.3rem 0;
+                box-sizing: border-box;
+
+                >h3 {
+                    font-size: 0.37rem;
+                    position: relative;
+                    margin-bottom: 0.3rem;
+
+                    >a {
+                        position: absolute;
+                        font-size: 0.25rem;
+                        right: 0;
+                        bottom: 0;
+                        color: #9a9a9a;
+                    }
+                }
+
+                >ul {
+                    display: flex;
+                    justify-content: space-between;
+
+                    >li {
+
+
+                        >a {
+                            >img {
+                                width: 2.19rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    >footer {
+        height: 1.1rem;
+        box-sizing: border-box;
+        border-top: 0.01rem solid #e3e3e3;
+        width: 100%;
+
+        >ul {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+
+            >li {
+                >a {
+                    display: flex;
+                    flex-flow: column;
+                    justify-content: center;
+                    align-items: center;
+                    color: #888888;
+
+                    >i {
+                        font-size: 0.5rem;
+                    }
+
+                    >span {
+                        font-size: 0.21rem;
+                        margin-top: 0.07rem;
+                    }
+                }
+            }
+
+            >li:nth-child(2) {
+                >a {
+                    color: #29a1f7;
+                }
+            }
+        }
+    }
+
+}
